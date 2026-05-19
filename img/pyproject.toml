@@ -1,0 +1,15 @@
+[project]
+name = "navicat-keygen-worker"
+version = "1.0.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "pydantic",
+    "jinja2",
+    "pycryptodome",
+    "httpx",
+]
+
+[dependency-groups]
+dev = ["workers-py"]
